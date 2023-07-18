@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Ysabeau+Infant:wght@600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden ;
+    overflow-y:auto;
+    background-color:  #141414;
+}
+.container{
+  
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+ .navigate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3f3e3e;
+    padding: 30px;
+    font-family:'Ysabeau Infant' ;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.search input[type="text"]:focus {
+    background-color: #e0e0e0;
+}
+
+.search .search-btn {
+    /* background-color: #84dfe6; */
+    background-color: brown;
+    color: #f9f7f6;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.search .search-btn:hover {
+    background-color: #8B4513;
+    color: #84dfe6;
+}
+
+.navdiv ul {
+    list-style: none;
+    display: flex;
+}
+
+.navdiv ul li {
+    margin-right: 20px;
+}
+
+.navdiv ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+    transition: color 0.3s ease;
+}
+
+.navdiv ul li a:hover {
+    color: #84dfe6;
+}
+
+.tagline h2{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 80px;
+font-family: 'Ysabeau Infant', sans-serif;
+}
+.tagline h3{
+    padding: 50px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 0;
+
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+
+.images h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.card {
+    width: 32%;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.card img {
+    overflow:visible;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.05); 
+}
+
+.button {
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+    width: 200px;
+    margin-left: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover{
+    background-color:#556161; 
+    color: #fcfbfa;
+}
+
+.Endline{
+    text-align:center;
+    padding: 20px;
+}
+
+.Endline h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: #333;
+    height: 100px;
+    width: 1500px;
+    padding-left: 0;
+    padding-top: 20px;
+    transform: translateX(-150px);
+    margin-bottom: 0;
+}
+
+footer p{
+    padding-left: 620px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-media p{
+    padding-left: 0;
+    font-size: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: aliceblue;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #84dfe6;
+}
